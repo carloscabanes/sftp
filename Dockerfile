@@ -2,7 +2,7 @@
 FROM ubuntu:14.04
 MAINTAINER Carlos Cabanes
 
-ENV USER carloscabanes
+ENV USER user
 ENV PASS password
 
 RUN apt-get update && \
