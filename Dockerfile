@@ -1,9 +1,9 @@
 
 FROM ubuntu:14.04
-MAINTAINER Knut Ahlers <knut@ahlers.me>
+MAINTAINER Carlos Cabanes
 
-ENV USER share
-ENV PASS changeme
+ENV USER carloscabanes
+ENV PASS password
 
 RUN apt-get update && \
     apt-get install -yq pwgen openssh-server mcrypt  && \
